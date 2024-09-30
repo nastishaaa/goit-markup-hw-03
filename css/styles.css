@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #434455;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo-studio{
+    color: #f4f4fd;
+}
+.navigation-properties{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.butt{
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.navigation-properties:hover{
+    color: #404bbf;
+}
+
+.navigation-properties:active{
+    color: #404bbf;
+}
+
+.navigation-properties:focus{
+    color: #404bbf; 
+}
+.butt:hover{
+    background-color: #404BBF;
+}
+
+.butt:focus{
+    background-color: #404BBF;
+}
+
+.address-properties{
+    font-style: normal;
+}
+
+.change-color{
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.change-color:hover, .change-color:active, .change-color:focus{
+    color: #404bbf;
+}
+
+.first-section{
+    background-color: #2e2f42;
+}
+.first-properties{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+
+.first-list-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.first-list{
+    background-color: #FFFFFF;
+
+}
+
+.list-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.list-paragraph{
+    font-size: 16px;
+    color: #434455 ;
+    letter-spacing: 0.02em;
+    line-height: 1.5 ;
+
+}
+
+.second-list-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+}
+
+.portfolio-color{
+    background-color: #E7E9FC;
+}
+
+.footer-properties{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.logo{
+    font-weight: 700;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+
+.logo-studio-f{
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.logo-studio-h{
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.footer-paragraph{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
