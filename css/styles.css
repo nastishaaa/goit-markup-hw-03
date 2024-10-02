@@ -5,17 +5,47 @@ body{
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid #E7E9FC;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.container{
+    max-width: 1158px;
+}
+
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 a{
     text-decoration: none;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container-main{
+    gap: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-studio{
     color: #f4f4fd;
 }
+
 .navigation-properties{
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -32,8 +62,14 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    margin-top: 16px;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .navigation-properties:hover{
     color: #404bbf;
 }
@@ -55,6 +91,7 @@ ul{
 
 .address-properties{
     font-style: normal;
+    align-items: center;
 }
 
 .change-color{
@@ -68,8 +105,15 @@ ul{
     color: #404bbf;
 }
 
+.team-list{
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+}
+
 .first-section{
     background-color: #2e2f42;
+    text-align: center;
 }
 .first-properties{
     font-size: 56px;
@@ -100,7 +144,9 @@ ul{
 
 .first-list{
     background-color: #FFFFFF;
-
+    padding-bottom: 32px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .list-title{
@@ -130,9 +176,18 @@ ul{
 }
 
 .portfolio-color{
-    background-color: #E7E9FC;
+    background-color: white;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
+.container-list{
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
 .footer-properties{
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -146,7 +201,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-left: 156px;
 }
 
 .logo-studio-f{
