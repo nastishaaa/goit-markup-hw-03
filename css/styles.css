@@ -18,7 +18,7 @@ img{
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-block:first-child{
+.header-block{
     display: flex;
 }
 
@@ -38,9 +38,9 @@ img{
 }
 
 .container{
-    margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
+    margin: 0 auto;
 }
 
 .section{
@@ -49,7 +49,14 @@ img{
 }
 
 .visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
     overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 .list-main{
