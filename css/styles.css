@@ -40,6 +40,7 @@ img{
 .container{
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section{
@@ -48,7 +49,7 @@ img{
 }
 
 .container h2{
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .list-main{
@@ -197,15 +198,23 @@ nav{
 
 }
 
+.title-portf{
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
 .list-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 8px;
+}
 
+.p-portfolio{
+    text-align: center;
 }
 
 .list-paragraph{
@@ -213,7 +222,7 @@ nav{
     color: #434455 ;
     letter-spacing: 0.02em;
     line-height: 1.5 ;
-    text-align: center;
+    
 }
 
 .second-list-title{
@@ -249,7 +258,6 @@ nav{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .logo-footer{
